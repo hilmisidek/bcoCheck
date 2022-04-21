@@ -89,7 +89,7 @@ def check(update: Update, context: CallbackContext) -> None:
             print(titleText)
             print (stockText)
             outPut.append(f"{titleText} \n Stock: {stockText} \n Url:{deep}")
-            replyText=f"{titleText}  {stockText}"
+            replyText=f"{titleText}\nStock: {stockText}\nURL: {deep}"
             update.message.reply_text(replyText)
   #update.message.reply_text(botreplyText, reply_markup=reply_markup)
 
