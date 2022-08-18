@@ -17,7 +17,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-TOKEN = "5314258275:AAGhajt1ao0fS-LXaI0tzOmCOwLR8Ldk5tw"
+TOKEN = ""
 
 
 def start(update: Update, context: CallbackContext) -> None:
